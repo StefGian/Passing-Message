@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Messages</title>
+</head>
+<body>
+  <header></header>
+  <div id="box">
+  <div id="form">
+    <h2>Compose</h2>
+    <form>
+      <label for="name">To:</label><br>
+      <input type="text" id="name"><br>
+      <label for="text">Message:</label><br>
+      <textarea rows="12" cols="70" id="text"></textarea>
+      <br>
+      <button>Send</button>
+    </form>
+  </div>
+  <div id="display">
+    <h2>Message Log</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th id="messageTh">Message</th>
+        <th>Time</th>
+      </tr>
+      <tr id="container">
+
+      </tr>
+    </table>
+  </div>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
